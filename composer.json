@@ -1,5 +1,5 @@
 {
-  "name": "crazybooot/base64-validation",
+  "name": "Jorgeslima/base64-validation",
   "description": "Laravel validators for base64 encoded files",
   "keywords": [
     "base64",
@@ -12,8 +12,8 @@
   ],
   "authors": [
     {
-      "name": "crazybooot",
-      "email": "crazybooot@gmail.com"
+      "name": "Jorgeslima",
+      "email": "Jorgeslima@gmail.com"
     }
   ],
   "license": "MIT",
@@ -25,13 +25,13 @@
   "autoload": {
     "psr-4": {
       "App\\": "app/",
-      "Crazybooot\\Base64Validation\\": "/src"
+      "Jorgeslima\\Base64Validation\\": "/src"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Crazybooot\\Base64Validation\\Providers\\ServiceProvider"
+        "Jorgeslima\\Base64Validation\\Providers\\ServiceProvider"
       ]
     }
   }

@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace Crazybooot\Base64Validation\Validators;
+namespace Jorgeslima\Base64Validation\Validators;
 
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Validation\Concerns\ValidatesAttributes;
@@ -17,7 +17,7 @@ use const true;
 /**
  * Class Base64Validator
  *
- * @package Crazybooot\Base64Validation\Validators
+ * @package Jorgeslima\Base64Validation\Validators
  */
 class Base64Validator
 {

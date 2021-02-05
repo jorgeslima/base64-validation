@@ -2,14 +2,14 @@ Laravel validators for base64 encoded files, includes versions of laravel files 
 
 ## Requirements
 
-* PHP: 7.1+
+* PHP: 7.1+ || PHP 8
 * Laravel: 5.5+/6+/7+/8+
 
 ## Install
 
 * Install composer package to your laravel project
 ``` bash
-$ composer require crazybooot/base64-validation
+$ composer require jorgeslima/base64-validation
 ```
 
 ## Using
@@ -42,7 +42,7 @@ is used for base64min message.
 If you would like to have your own localization for base64 rules you can easy change default behaviour
 by publishing config
 ```bash
-php artisan vendor:publish --provider="Crazybooot\Base64Validation\Providers\ServiceProvider" --tag=config
+php artisan vendor:publish --provider="Jorgeslima\Base64Validation\Providers\ServiceProvider" --tag=config
 ```
 and setting up `replace_validation_messages` option to `false` on config/base64validation.php file, 
 and add localizations for rules in standard Laravel way.

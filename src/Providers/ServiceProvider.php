@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace Crazybooot\Base64Validation\Providers;
+namespace Jorgeslima\Base64Validation\Providers;
 
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
@@ -13,7 +13,7 @@ use function trans;
 /**
  * Class QueueStatsServiceProvider
  *
- * @package Crazybooot\QueueStats\Providers
+ * @package Jorgeslima\QueueStats\Providers
  */
 class ServiceProvider extends BaseServiceProvider
 {
@@ -26,47 +26,47 @@ class ServiceProvider extends BaseServiceProvider
     {
         Validator::extend(
             'base64max',
-            'Crazybooot\Base64Validation\Validators\Base64Validator@validateBase64Max'
+            'Jorgeslima\Base64Validation\Validators\Base64Validator@validateBase64Max'
         );
 
         Validator::extend(
             'base64min',
-            'Crazybooot\Base64Validation\Validators\Base64Validator@validateBase64Min'
+            'Jorgeslima\Base64Validation\Validators\Base64Validator@validateBase64Min'
         );
 
         Validator::extend(
             'base64dimensions',
-            'Crazybooot\Base64Validation\Validators\Base64Validator@validateBase64Dimensions'
+            'Jorgeslima\Base64Validation\Validators\Base64Validator@validateBase64Dimensions'
         );
 
         Validator::extend(
             'base64file',
-            'Crazybooot\Base64Validation\Validators\Base64Validator@validateBase64File'
+            'Jorgeslima\Base64Validation\Validators\Base64Validator@validateBase64File'
         );
 
         Validator::extend(
             'base64image',
-            'Crazybooot\Base64Validation\Validators\Base64Validator@validateBase64Image'
+            'Jorgeslima\Base64Validation\Validators\Base64Validator@validateBase64Image'
         );
 
         Validator::extend(
             'base64mimetypes',
-            'Crazybooot\Base64Validation\Validators\Base64Validator@validateBase64Mimetypes'
+            'Jorgeslima\Base64Validation\Validators\Base64Validator@validateBase64Mimetypes'
         );
 
         Validator::extend(
             'base64mimes',
-            'Crazybooot\Base64Validation\Validators\Base64Validator@validateBase64Mimes'
+            'Jorgeslima\Base64Validation\Validators\Base64Validator@validateBase64Mimes'
         );
 
         Validator::extend(
             'base64between',
-            'Crazybooot\Base64Validation\Validators\Base64Validator@validateBase64Between'
+            'Jorgeslima\Base64Validation\Validators\Base64Validator@validateBase64Between'
         );
 
         Validator::extend(
             'base64size',
-            'Crazybooot\Base64Validation\Validators\Base64Validator@validateBase64Size'
+            'Jorgeslima\Base64Validation\Validators\Base64Validator@validateBase64Size'
         );
 
         if (config('base64validation.replace_validation_messages')) {
