@@ -1,5 +1,5 @@
 {
-  "name": "Jorgeslima/base64-validation",
+  "name": "jorgeslima/base64-validation",
   "description": "Laravel validators for base64 encoded files",
   "keywords": [
     "base64",
@@ -12,8 +12,8 @@
   ],
   "authors": [
     {
-      "name": "Jorgeslima",
-      "email": "Jorgeslima@gmail.com"
+      "name": "Jorge Lima",
+      "email": "jorge@creativeconcept.com.br"
     }
   ],
   "license": "MIT",
